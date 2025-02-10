@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:title="Home"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/black"
+        android:orderInCategory="1"
+        android:icon="@drawable/baseline_add_home_24"/>
+    <item
+        android:id="@+id/action_block"
+        android:title="Block"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="3"
+        />
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="2"
+        android:iconTint="@android:color/holo_green_dark"
+        android:icon="@drawable/baseline_build_circle_24"/>
+</menu>
